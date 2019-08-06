@@ -20,7 +20,7 @@
 		{
 			key: 1,
 			name: 'Landing page ilustration',
-			description: 'Diseño de landing, ilustraciones de <a href="https://icons8.com/ouch" target="_blank">Ouch</a>',
+			description: 'Diseño de landing page, ilustraciones de <a href="https://icons8.com/ouch" target="_blank">Ouch</a>',
 			tags: 'Ilustrator',
 			year: '2019',
 			images : [
