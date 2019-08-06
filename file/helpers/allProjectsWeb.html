@@ -1,0 +1,214 @@
+<!-- 
+	Created by Kevin Parra - KP Portafolio 2019.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>KP - Proyectos web</title>
+	<link rel="icon" href="../img/favicon.jpg">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!-- Bootstrap -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Google font (muli) -->
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
+	<!-- Smooth-scroll JS -->
+    <script src="../js/smooth-scroll.min.js"></script>    
+    <script>
+       smoothScroll.init({
+       selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+       selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+       speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+       easing: 'easeInOutCubic', // Easing pattern to use
+       offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+       callback: function ( anchor, toggle ) {
+
+       } // Function to run after scrolling
+       });
+ 	</script>
+</head>
+<body>
+
+	<!-- Mouse -->
+	<div class="cursor"></div>
+
+	<!-- background black popUp -->
+	<div class="bg_" id="bg_"></div>
+
+
+	<!-- container información fixed rotada --> 
+	<div class="content-fixed content-fixed-left">
+		<a href="#!">ksparra6@gmail.com</a>
+	</div>
+
+	<div class="content-fixed content-fixed-right">
+		<a href="https://www.behance.net/ksparra38af"  target="_blank" class="mr-4">Behance</a>
+		<a href="https://dribbble.com/kevin6parra" target="_blank" >Dribbble</a>
+	</div>
+
+	<div class="box-behind-contact" id="box-behind-contact"></div>
+	<div class="container-contact" id="section-contact">
+		<i class="fa fa-times close-contact" id="close-contact"></i>
+		<ul>
+			<li>
+				<a href="https://dribbble.com/kevin6parra" target="_blank" >Dribbble</a>
+			</li>
+			<li>
+				<a href="https://codepen.io/kevin_parra_6/" target="_blank">CodePen</a>
+			</li>
+			<li>
+				<a href="https://www.behance.net/ksparra38af" target="_blank">Behance</a>
+			</li>
+			<li>
+				<a href="#!">+57 301 533 6745</a>
+			</li>
+			<li>
+				<a href="#!">ksparra6@gmail.com</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- menú responsive -->
+	<div class="box-behind-menu-responsive" id="box-behind-menu-responsive"></div>
+	<div class="menu-responsive" id="menu-responsive">
+		<i class="fa fa-times close-menu-responsive" id="close-menu-responsive"></i>
+		<ul>
+			<li>
+				<a href="#!" class="option-menu-responsive">Inicio</a>
+			</li>
+			<li>
+				<a data-scroll href="../../index.html#about-me" class="option-menu-responsive">Sobre mí</a>
+			</li>
+			<li>
+				<a data-scroll href="../../index.html#project" class="option-menu-responsive">Proyectos</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Header -->
+	<header class="container-wrapper">
+		<div class="wrapper">
+			<div class="left">
+				<a href="../../index.html" class="logo">KP</a>
+				<nav id="navbar">
+					<i class="fas fa-times close-nav" id="close-nav"></i>
+					<ul>
+						<li>
+							<a class="option-menu" data-scroll href="../../index.html">Inicio</a>
+						</li>
+						<li>
+							<a class="option-menu" data-scroll href="../../index.html#about-me">Sobre mí</a>
+						</li>
+						<li>
+							<a class="option-menu" data-scroll href="#projects" class="mr-0">Proyectos</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="right">
+				<i class="fa fa-bars icon-menu" id="button-open-menu-responsive"></i>
+				<a href="#!" class="btn-contact" id="btn-contact">Contacto</a>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- Heading information -->
+	<section class="container-wrapper container-heading onload-deafault-content">
+		<article class="wrapper">
+			<div class="wrapper">
+				<div class="wrapper-mid">
+					<div class="druplo">
+						<a href="#">Proyectos web</a>
+						<p>Proyectos personales y para clientes.</p>
+					</div>
+					<h1 class="title-default text-left">Cada día por mejorar</h1>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<!-- Container projects card box -->
+	<section class="container-wrapper onload-deafault-content">
+		<article class="wrapper">
+			<div class="wrapper">
+				<div class="wrapper-mid">
+					<div class="row" id="container-card-projects">
+						<!-- Agregado desde JavaScript -->
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
+
+	<!-- Redes sociales -->
+	<section class="container-wrapper network-social">
+		<article class="wrapper">
+			<a href="https://dribbble.com/kevin6parra" target="_blank">Dribbble</a>
+			<a href="https://www.behance.net/ksparra38af" target="_blank">Behance</a>
+			<a href="https://codepen.io/kevin_parra_6/" target="_blank">CodePen</a>
+		</article>
+	</section>
+
+	<footer class="container-wrapper pb-3 text-center">
+		<div class="wrapper text-center">
+			<a href="../../index.html" class="logo-footer">KP</a>
+		</div>
+		<a data-scroll href="#" class="fa fa-chevron-up arrow-up"></a>
+	</footer>
+
+
+	<!-- Container view full project -->
+	<div class="box-behind-view-full-project" id="box-behind-view-full-project"></div>
+	<section class="view-full-project" id="view-full-project">
+		<article class="wrapper" id="content-view-full-project">
+			<div class="wrapper">
+				<div class="wrapper-mid">
+					<br><br><br><br>
+					<i class="fa fa-times close-view-full-project" id="button-close-view-full-project"></i>
+					<div class="row">
+						<div class="col-md-6">
+							<h4 class="title-view-full-project" id="name-view-full-project"><!-- agregado desde js --></h4>
+						</div>
+						<div class="col-md-6">
+							<p class="text-view-full-project" id="description-view-full-project"><!-- agregado desde js --></p>
+							<br>
+							<div class="year-view-full-project">
+								<h5>Año:</h5>
+								<p id="year-view-full-project"><!-- agregado desde js --></p>
+							</div>
+						</div>
+					</div>
+					<div class="container-image-view-full-project" id="container-image-view-full-project">
+						<!-- agregado desde js -->
+					</div>
+					<div class="text-center">
+						<a data-scroll href="#button-close-view-full-project" class="fa fa-chevron-up arrow-up"></a>
+						<br><br>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+	
+
+
+	<!-- My scripts -->
+	<script src="../js/data/projects-web.js"></script>
+	<script src="../js/config-data-projects.js"></script>
+	<script>
+		config_data_project(DATA_PROJECTS_WEB);
+	</script>
+
+	<script src="../js/main.js"></script>
+	<script src="../js/main-JQuery.js"></script> 
+
+</body>
+</html>

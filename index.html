@@ -1,0 +1,329 @@
+<!-- 
+	Created by Kevin Parra - KP Portafolio 2019.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>KP - Portafolio</title>
+	<link rel="icon" href="file/img/favicon.jpg">
+	<link rel="stylesheet" type="text/css" href="file/css/style.css">
+	<!-- Bootstrap -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Google font (muli) -->
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<!-- Owl Carousel CSS-->
+	<link rel="stylesheet" href="file/owlCarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="file/owlCarousel/owl.theme.default.min.css">
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<!-- Owl Carousel JS -->
+	<script src="file/owlCarousel/owl.carousel.min.js"></script>
+	<!-- Smooth-scroll JS -->
+    <script src="file/js/smooth-scroll.min.js"></script>    
+    <script>
+       smoothScroll.init({
+       selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+       selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+       speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+       easing: 'easeInOutCubic', // Easing pattern to use
+       offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+       callback: function ( anchor, toggle ) {
+
+       } // Function to run after scrolling
+       });
+ 	</script>
+</head>
+<body>
+
+	<!-- Mouse -->
+	<div class="cursor"></div>
+
+	<!-- background black popUp -->
+	<div class="bg_" id="bg_"></div>
+
+
+	<!-- container información fixed rotada --> 
+	<div class="content-fixed content-fixed-left">
+		<a href="#!">ksparra6@gmail.com</a>
+	</div>
+
+	<div class="content-fixed content-fixed-right">
+		<a href="https://www.behance.net/ksparra38af"  target="_blank" class="mr-4">Behance</a>
+		<a href="https://dribbble.com/kevin6parra" target="_blank" >Dribbble</a>
+	</div>
+
+	<!-- container contacto -->
+	<div class="box-behind-contact" id="box-behind-contact"></div>
+	<div class="container-contact" id="section-contact">
+		<i class="fa fa-times close-contact" id="close-contact"></i>
+		<ul>
+			<li>
+				<a href="https://dribbble.com/kevin6parra" target="_blank" >Dribbble</a>
+			</li>
+			<li>
+				<a href="https://codepen.io/kevin_parra_6/" target="_blank">CodePen</a>
+			</li>
+			<li>
+				<a href="https://www.behance.net/ksparra38af" target="_blank">Behance</a>
+			</li>
+			<li>
+				<a href="#!">+57 301 533 6745</a>
+			</li>
+			<li>
+				<a href="#!">ksparra6@gmail.com</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<!-- menú responsive -->
+	<div class="box-behind-menu-responsive" id="box-behind-menu-responsive"></div>
+	<div class="menu-responsive" id="menu-responsive">
+		<i class="fa fa-times close-menu-responsive" id="close-menu-responsive"></i>
+		<ul>
+			<li>
+				<a href="#!" class="option-menu-responsive">Inicio</a>
+			</li>
+			<li>
+				<a data-scroll href="#about-me" class="option-menu-responsive">Sobre mí</a>
+			</li>
+			<li>
+				<a data-scroll href="#projects" class="option-menu-responsive">Proyectos</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<!-- Header -->
+	<header class="container-wrapper">
+		<div class="wrapper">
+			<div class="left">
+				<a href="index.html" class="logo">KP</a>
+				<nav id="navbar">
+					<i class="fas fa-times close-nav" id="close-nav"></i>
+					<ul>
+						<li>
+							<a class="option-menu" data-scroll href="#!">Inicio</a>
+						</li>
+						<li>
+							<a class="option-menu" data-scroll href="#about-me">Sobre mí</a>
+						</li>
+						<li>
+							<a class="option-menu" data-scroll href="#projects" class="mr-0">Proyectos</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="right">
+				<i class="fa fa-bars icon-menu" id="button-open-menu-responsive"></i>
+				<a href="#!" class="btn-contact" id="btn-contact">Contacto</a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Información 'slider' -->
+	<section class="container-slider container-wrapper">
+		<article class="wrapper">
+			<div class="information-slider">
+				<div class="info-me">
+					<h1 class="name">KEVIN PARRA</h1>
+					<h3 class="job">DESARROLLADOR & DISEÑADOR WEB</h3>
+				</div>
+				<a data-scroll href="#about-me" class="mouse-scroll">
+					<img src="file/img/icono-mouse.png">
+				</a>
+			</div>
+		</article>
+	</section>
+
+	<!-- Sobre mi -->
+	<section class="container-wrapper container-about-me" id="about-me">
+		<article class="wrapper">
+			<div class="wrapper">
+				<br><br><br><br><br>
+				<!-- <h1 class="title-default">Sobre mí</h1> -->
+				<div class="image-about-me" id="image-about-me">
+					<!-- <img src="file/img/img-sobre-mi.jpg"> -->
+				</div>
+				<p class="text-default">Hola, soy Kevin Parra. Dejame darte una introducción sobre mí. Soy un diseñador y programador web de 19 años que recientemente se graduó en Diseño e integración de multimedia en el Sena.
+				<br><br>
+				Aunque me gusta la programación, estoy más enfocado en verme como un diseñador web y trabajar con personas que se preocupen por la estética del producto.
+				<br><br>
+				Trabajé para una agencia llamada <a href="https://estrategico.digital/" target="_blank">Estratégico Digital S.A.S.</a>, y actualmente estoy trabajando independiente y también buscando una oportunidad en una agencia/empresa de productos.</p>
+				<div id="add"></div>
+			</div>
+		</article>
+	</section>
+
+	<!-- Proyectos webs -->
+	<section class="container-wrapper container-project" id="projects">
+		<article class="wrapper">
+			<div class="wrapper">
+				<br><br><br>
+				<h1 class="title-default">Proyectos web</h1>
+				<div class="owl-carousel owl-theme project slider-projects">
+				    <img class="owl-lazy" data-src="file/img/project-web/00-slider-home/img1.png" alt="">
+				    <img class="owl-lazy" data-src="file/img/project-web/00-slider-home/img2.png" alt="">
+				    <img class="owl-lazy" data-src="file/img/project-web/00-slider-home/img3.png" alt="">
+				    <img class="owl-lazy" data-src="file/img/project-web/00-slider-home/img4.png" alt="">
+				</div>
+				<br><br><br>
+				<a href="file/helpers/allProjectsWeb.html" class="btn-default">Ver todos los proyectos</a>
+			</div>
+		</article>
+	</section>
+
+
+	<!-- container behance -->
+	<section class="container-wrapper container-behance">
+		<article class="container-wrapper bg">
+			<div class="wrapper">
+				<div class="wrapper">
+					<h1>Trabajos recientes en</h1>
+				</div>
+			</div>
+		</article>
+		<div class="wrapper content-behance">
+			<div class="wrapper">
+				<a href="https://www.behance.net/ksparra38af" target="_blank">Behance</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Proyectos gráficos -->
+	<section class="container-wrapper container-project container-grafi">
+		<article class="wrapper">
+			<div class="wrapper">
+				<h1 class="title-default">Proyectos gráficos</h1>
+				<div class="owl-carousel owl-theme project slider-projects">
+				    <img class="owl-lazy" data-src="file/img/project-graphic/00-slider-home/img1.png" alt="">
+				    <img class="owl-lazy" data-src="file/img/project-graphic/00-slider-home/img2.png" alt="">
+				    <img class="owl-lazy" data-src="file/img/project-graphic/00-slider-home/img3.png" alt="">
+				    <img class="owl-lazy" data-src="file/img/project-graphic/00-slider-home/img4.png" alt="">
+				    <img class="owl-lazy" data-src="file/img/project-graphic/00-slider-home/img5.png" alt="">
+				</div>
+				<br><br><br>
+				<a href="file/helpers/allProjectsGraphic.html" class="btn-default">Ver todos los proyectos</a>
+			</div>
+		</article>
+	</section>
+
+
+	<!-- historia -->
+	<section class="container-wrapper container-history" id="container-history">
+		<article class="wrapper">
+			<div class="wrapper">
+				<div class="content-title">
+					<h1>Breve historia de mi corta carrera:</h1>
+				</div>
+				<div class="content-cards">
+					<div class="owl-carousel owl-theme" id="history-owl">
+					    <div class="item">
+					    	<div class="card-h">
+								<p>2016 - 2017</p>
+								<h2>Inicios</h2>
+								<p class="text-default">Cuando tenía 16 me interesé en crear un juego así que comencé en la busqueda, estuve unos meses aprendiendo c++ y luego me llamó la antención el tema del desarrollo web.</p>
+							</div>
+					    </div>
+					    <div class="item">
+					    	<div class="card-h">
+								<p>2018</p>
+								<h2>Un gran paso</h2>
+								<p class="text-default">Esto se podría decir un "gran paso" por el hecho de entrar por una técnica de diseño e integración de multimedia.</p>
+							</div>
+					    </div>
+					    <div class="item">
+					    	<div class="card-h">
+								<p>2018 - 2019</p>
+								<h2>Practicas de la técnica</h2>
+								<p class="text-default">Gran experiencia y conocimiento obtuve de mis practicas con buenas y divertidas personas</p>
+							</div>
+					    </div>
+					    <div class="item">
+					    	<div class="card-h">
+								<p>2019</p>
+								<h2>¿Ahora qué sigue?</h2>
+								<!-- 
+									actualmente estoy trabajando independiente y también buscando una oportunidad en una agencia/empresa de productos.
+								-->
+								<p class="text-default">Ahora que la técnica está terminada estoy en la busqueda de nuevas oportunidades independientes o trabajo en agencia/empresa de productos.
+
+</p>
+							</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
+
+	<!-- Redes sociales -->
+	<section class="container-wrapper network-social">
+		<article class="wrapper">
+			<a href="https://dribbble.com/kevin6parra" target="_blank">Dribbble</a>
+			<a href="https://www.behance.net/ksparra38af" target="_blank">Behance</a>
+			<a href="https://codepen.io/kevin_parra_6/" target="_blank">CodePen</a>
+		</article>
+	</section>
+
+	<footer class="container-wrapper pb-3 text-center">
+		<div class="wrapper text-center">
+			<a href="#!" class="logo-footer">KP</a>
+		</div>
+		<a data-scroll href="#" class="fa fa-chevron-up arrow-up"></a>
+	</footer>
+
+	<!-- Tween Max -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<!-- Three -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/106/three.min.js" integrity="sha256-tAVw6WRAXc3td2Esrjd28l54s3P2y7CDFu1271mu5LE=" crossorigin="anonymous"></script>
+
+	<!-- Effect hover -->
+	<script src="file/js/hoverThree.js"></script>
+
+	<!-- My scripts -->
+	<script src="file/js/data/projects-web.js"></script>
+	<script src="file/js/effect-hover-diss.js"></script>
+	<script src="file/js/main.js"></script>
+	<script src="file/js/main-JQuery.js"></script> 
+	<script>
+
+		/* Carousel project web */
+		$('.owl-carousel.project').owlCarousel({
+		    items: 1,
+		    lazyLoad: true,
+		    loop: true,
+		    margin: 10,
+		    dots: false,
+		    autoplay:true,
+		    autoplayTimeout:1500,
+		    autoplayHoverPause:true
+		});
+
+		/* Carousel project graphic */
+		$('#history-owl').owlCarousel({
+			items: 2,
+			loop: true,
+			margin: 4,
+			dots: false,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        1200:{
+		            items:2
+		        }
+		    }
+		});
+
+	</script>
+
+</body>
+</html>
