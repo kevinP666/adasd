@@ -5,6 +5,20 @@
 	DATA_PROJECTS_WEB = [
 		{
 			key: 0,
+			name: 'Food',
+			description: 'Diseño de sitio web para resturante con reservas por whatsApp.',
+			tags: 'Ilustrator, PhotoShop',
+			year: '2019',
+			images : [
+				'../img/project-web/food-restaurant/view-food-restaurant-heading.jpg',
+				'../img/project-web/food-restaurant/view-food-restaurant-full.jpg'
+			],
+			viewImageCardBox: function() {
+				return this.images[0];
+			}
+		},
+		{
+			key: 1,
 			name: 'GeoFriend',
 			description: 'Diseño app, diseñado en mis tiempos libres.',
 			tags: 'Ilustrator',
@@ -18,7 +32,7 @@
 			}
 		},
 		{
-			key: 1,
+			key: 2,
 			name: 'Landing page ilustration',
 			description: 'Diseño de landing page, ilustraciones de <a href="https://icons8.com/ouch" target="_blank">Ouch</a>',
 			tags: 'Ilustrator',
@@ -32,7 +46,7 @@
 			}
 		},
 		{
-			key: 2,
+			key: 3,
 			name: 'TULKANA',
 			description: 'Diseño creado en mis practicas en la agencia <a href="https://estrategico.digital/" target="_blank">Estratégico Digital S.A.S</a>, página de cortesía.',
 			tags: 'XD / Ilustrator / PhotoShop',
@@ -46,7 +60,7 @@
 			}
 		},
 		{
-			key: 3,
+			key: 4,
 			name: 'Rosetta Comunicaciones',
 			description: 'Diseño creado en mis practicas en la agencia <a href="https://estrategico.digital/" target="_blank">Estratégico Digital S.A.S</a>, página de cortesía.',
 			tags: 'XD / Ilustrator / PhotoShop',
@@ -60,7 +74,7 @@
 			}
 		},
 		{
-			key: 4,
+			key: 5,
 			name: 'Daniela Valencia Catering',
 			description: 'Diseño creado en mis practicas en la agencia <a href="https://estrategico.digital/" target="_blank">Estratégico Digital S.A.S</a>, página de cortesía.',
 			tags: 'XD / Ilustrator / PhotoShop',
@@ -74,7 +88,7 @@
 			}
 		},
 		{
-			key: 5,
+			key: 6,
 			name: 'Madeco Arte',
 			description: 'Diseño creado en mis practicas en la agencia <a href="https://estrategico.digital/" target="_blank">Estratégico Digital S.A.S</a>, página de cortesía.',
 			tags: 'XD / Ilustrator / PhotoShop',
@@ -88,7 +102,7 @@
 			}
 		},
 		{
-			key: 6,
+			key: 7,
 			name: 'EAR Solucines Para Todo',
 			description: 'Diseño creado en mis practicas en la agencia <a href="https://estrategico.digital/" target="_blank">Estratégico Digital S.A.S</a>, página de cortesía.',
 			tags: 'XD / Ilustrator / PhotoShop',
@@ -102,7 +116,7 @@
 			}
 		},
 		{
-			key: 7,
+			key: 8,
 			name: 'MetalMuebles',
 			description: 'Diseño creado en mis practicas en la agencia <a href="https://estrategico.digital/" target="_blank">Estratégico Digital S.A.S</a>, rediseño sitio web de productos.',
 			tags: 'XD / Ilustrator / PhotoShop',
@@ -120,7 +134,7 @@
 			}
 		},
 		{
-			key: 8,
+			key: 9,
 			name: 'Expansores',
 			description: 'Diseño completo de catalogo de expansores.',
 			tags: 'HTML5 / CSS3 / JavaScript / Ilustrator / PhotoShop',
@@ -135,7 +149,7 @@
 			}
 		},
 		{
-			key: 9,
+			key: 10,
 			name: 'SMART',
 			description: 'Diseño creado en mi tiempo libre.',
 			tags: 'HTML5 / CSS3 / JavaScript / Ilustrator / PhotoShop / Tiempo libre / personal',
@@ -150,7 +164,7 @@
 			}
 		},
 		{
-			key: 10,
+			key: 11,
 			name: 'Me.',
 			description: 'Diseño creado en mi tiempo libre.',
 			tags: 'HTML5 / CSS3 / JavaScript / Ilustrator / PhotoShop / Tiempo libre / personal',
@@ -165,7 +179,7 @@
 			}
 		},
 		{
-			key: 11,
+			key: 12,
 			name: 'Jane Fashion',
 			description: 'Rediseño de blog.',
 			tags: 'HTML5 / CSS3 / JavaScript / Ilustrator / PhotoShop / Tiempo libre / personal',
